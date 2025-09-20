@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Misinformation Fighter",
+  "version": "1.0.0",
+  "description": "AI-powered tool to detect misinformation and fake news. Get instant credibility scores and learn to identify unreliable content.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Analyze content for misinformation"
+  },
+  "icons": {
+    "16": "vite.svg",
+    "32": "vite.svg",
+    "48": "vite.svg",
+    "128": "vite.svg"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
